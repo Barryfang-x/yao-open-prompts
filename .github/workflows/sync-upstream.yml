@@ -1,0 +1,41 @@
+name: Sync fork from upstream
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream and fetch
+        run: |
+          git remote add upstream https://github.com/yaojingang/yao-open-prompts.git || true
+          git fetch upstream
+
+      - name: Checkout default branch
+        run: |
+          git checkout main
+
+      - name: Merge upstream changes
+        run: |
+          git merge upstream/main --no-edit
+
+      - name: Push changes back to fork
+        run: |
+          git push origin main
