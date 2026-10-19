@@ -1,6 +1,6 @@
 # 提示词目录
 
-当前共拆分出 **117** 个提示词文件。
+当前共拆分出 **135** 个提示词文件。
 
 ## 分类统计
 
@@ -13,7 +13,7 @@
 | AI教育 | 4 | 儿童教育、互动学习页面和小游戏创作。 |
 | AI内容 | 50 | 写作、润色、标题、公众号 HTML、短视频、内容运营、图像和 PPT 创意。 |
 | AI编程 | 1 | 架构设计和编程协作。 |
-| AI营销 | 28 | GEO 内容生成、结构化数据、信源建设、数据监测、增长诊断和合规风险。 |
+| AI营销 | 46 | 课程定位、设计、售卖与运营，GEO 内容、信源建设、数据监测、增长诊断和合规风险。 |
 | AI思考 | 3 | 批判思维、记忆、标题和思维类灵感提示词。 |
 
 ## 全量索引
@@ -25,7 +25,7 @@
 | AI方法 | 元提示词 | [智能元提示词生成系统](prompts/01-ai-methods/interactive-rtf-meta-prompt-system.md) | active | 元提示词 |
 | AI方法 | 元提示词 | [LISP结构化元提示词系统 V0.8](prompts/01-ai-methods/lisp-rtf-meta-prompt-v08.md) | active | 元提示词 |
 | AI方法 | 元提示词 | [元提示词：生成提示词的提示词](prompts/01-ai-methods/meta-prompt-rtf-generator.md) | active | 元提示词 |
-| AI方法 | 元提示词 | [智能元提示词生成系统 V0.6](prompts/01-ai-methods/rtf-meta-prompt-system-v06.md) | active | 元提示词 |
+| AI方法 | 元提示词 | [智能元提示词设计与优化系统 V1.0](prompts/01-ai-methods/rtf-meta-prompt-system-v1.md) | active | 元提示词 |
 | AI方法 | 反编译 | [视频反编译：短视频截图拆解分析](prompts/01-ai-methods/video-reverse-engineering.md) | active | 视频反编译 |
 | AI方法 | 反向工程 | [网页逆向工程与泛化生成提示词](prompts/01-ai-methods/webpage-reverse-engineering.md) | active | 网页逆向工程 |
 | AI工作 | 企业调研 | [从0到1：用AI深度调研企业的完整方法论](prompts/02-ai-work/company-research-methodology.md) | active | 企业调研 |
@@ -113,7 +113,25 @@
 | AI营销 | GEO内容 | [答案空间占领策略提示词](prompts/08-ai-marketing/answer-space-occupation-strategy.md) | active | GEO |
 | AI营销 | GEO内容 | [品牌知识资产构建提示词](prompts/08-ai-marketing/brand-knowledge-asset-builder.md) | active | GEO |
 | AI营销 | GEO数据 | [竞品GEO分析提示词](prompts/08-ai-marketing/competitor-geo-analysis.md) | active | GEO |
+| AI营销 | 课程营销·定位 | [商业：如何找到你的蓝海市场](prompts/08-ai-marketing/course-marketing/blue-ocean-market.md) | active | 课程营销 |
+| AI营销 | 课程营销·售卖 | [渠道：如何让课程触手可及](prompts/08-ai-marketing/course-marketing/course-channels.md) | active | 课程营销 |
+| AI营销 | 课程营销·运营 | [服务：如何实现高质量满意度](prompts/08-ai-marketing/course-marketing/course-community-service.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [交付：如何让用户感觉很超值](prompts/08-ai-marketing/course-marketing/course-delivery-value.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [模型：如何让价值感提升100倍](prompts/08-ai-marketing/course-marketing/course-framework.md) | active | 课程营销 |
+| AI营销 | 课程营销·售卖 | [造势：如何吸引大量潜在客户](prompts/08-ai-marketing/course-marketing/course-launch-campaign.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [大纲：如何让你的大纲说人话](prompts/08-ai-marketing/course-marketing/course-outline.md) | active | 课程营销 |
+| AI营销 | 课程营销·定位 | [课程：你要解决的是什么痛点](prompts/08-ai-marketing/course-marketing/course-pain-point.md) | active | 课程营销 |
+| AI营销 | 课程营销·售卖 | [价格：定价并不由成本决定](prompts/08-ai-marketing/course-marketing/course-pricing.md) | active | 课程营销 |
+| AI营销 | 课程营销·售卖 | [包装：如何为课程披上好外衣](prompts/08-ai-marketing/course-marketing/course-sales-page.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [名称：如何让课程标题自带广告](prompts/08-ai-marketing/course-marketing/course-title.md) | active | 课程营销 |
+| AI营销 | 课程营销·运营 | [价值：如何设计长期价值体系](prompts/08-ai-marketing/course-marketing/learner-lifetime-value.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [内容：如何改变认知和唤醒行为](prompts/08-ai-marketing/course-marketing/lesson-behavior-design.md) | active | 课程营销 |
+| AI营销 | 课程营销·设计 | [材料：如何让吸引力增加10倍](prompts/08-ai-marketing/course-marketing/lesson-materials.md) | active | 课程营销 |
+| AI营销 | 课程营销·运营 | [讲课：如何让学员听课听上瘾](prompts/08-ai-marketing/course-marketing/lesson-peak-experience.md) | active | 课程营销 |
+| AI营销 | 课程营销·定位 | [使命：吸引真正欣赏你的用户](prompts/08-ai-marketing/course-marketing/mission-positioning.md) | active | 课程营销 |
+| AI营销 | 课程营销·定位 | [人设：为什么是你而不是别人](prompts/08-ai-marketing/course-marketing/personal-brand-persona.md) | active | 课程营销 |
 | AI营销 | GEO原理 | [ERE框架内容优化提示词](prompts/08-ai-marketing/ere-framework-content-optimization.md) | active | GEO |
+| AI营销 | GEO | [GEO文章AI友好化改造提示词](prompts/08-ai-marketing/geo-article-ai-friendly-transformation.md) | active | GEO |
 | AI营销 | GEO | [GEO文章生成系统](prompts/08-ai-marketing/geo-article-generator.md) | active | GEO |
 | AI营销 | GEO | [GEO文章改写系统](prompts/08-ai-marketing/geo-article-rewriter.md) | active | GEO |
 | AI营销 | GEO机会 | [GEO商业价值评估与ROI计算提示词](prompts/08-ai-marketing/geo-business-value-roi-calculator.md) | active | GEO |
